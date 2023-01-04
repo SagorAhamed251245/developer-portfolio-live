@@ -9,19 +9,49 @@
  body{
     background-color: aqua;
 }
-
-nav{
-    display: flex;
-    justify-content: space-between;
+.text-pri{
+    color: orange;
 }
 
+
+nav  {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 150px 0px 150px;
+    
+}
+ .nav-title > h2 {
+    font-size: 45px;
+    font-weight: bolder;
+
+ }
+ .nav-btn {
+    display: flex;
+    align-items: center;
+ }
 .nav-btn > ul {
     display: flex;
    
 } 
 .nav-btn > ul > li {
+    font-weight: bold;
     margin-left: 30px;
-    text-decoration: none;
+    
     list-style: none;
+    border: none;
+    padding: 5px;
 }
+
+.nav-btn > ul > li >button {
+    background-color: orange;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+
+    padding: 5px 10px 5px 10px;
+    
+}
+
+
 
