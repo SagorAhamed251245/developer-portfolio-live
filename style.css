@@ -74,9 +74,19 @@ nav {
     border-radius: 5px;
     font-weight: bold;
     color: white;
-
+    margin-right: 25px;
     padding: 5px 10px 5px 10px;
 
+}
+
+.btn-second{
+    background-color: transparent;
+    border: 2px solid orange;
+    border-radius: 5px;
+    font-weight: bold;
+    color: orange;
+    margin-right: 25px;
+    padding: 5px 10px 5px 10px;
 }
 
 /* nav style end  */
