@@ -176,7 +176,7 @@ main {
 
 /* what i do start */
 
-.what-i-do {
+.section-style {
     margin-top: 130px;
     text-align: center;
 
@@ -186,7 +186,7 @@ main {
     display: flex;
     gap: 24px;
     text-align: start;
-    
+
 }
 
 .skill {
@@ -207,10 +207,44 @@ main {
 .skill-descrption {
     margin-top: 30px;
     width: 201px;
-height: 196px;
+    height: 196px;
     margin-bottom: 20px;
     font-weight: 400;
     font-size: 16px;
     color: #757575;
 
+}
+
+/* resume style */
+
+
+.resume-container {
+    display: flex;
+    text-align: start;
+
+}
+
+
+.resume-item>.title {
+    font-weight: 700;
+    font-size: 25px;
+    color: #474747;
+
+}
+
+.resume-item>.sub-title {
+
+    font-weight: 600;
+    font-size: 20px;
+    color: #757575;
+
+
+
+}
+
+.resume-item>.resume-description {
+
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
 }
