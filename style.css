@@ -221,6 +221,14 @@ main {
 .resume-container {
     display: flex;
     text-align: start;
+    gap: 70px;
+
+}
+
+.resume-item{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-right: 60px;
 
 }
 
@@ -230,6 +238,7 @@ main {
     font-size: 25px;
     color: #474747;
 
+
 }
 
 .resume-item>.sub-title {
@@ -237,6 +246,8 @@ main {
     font-weight: 600;
     font-size: 20px;
     color: #757575;
+    margin-top: 10px;
+    margin-bottom: 20px;
 
 
 
