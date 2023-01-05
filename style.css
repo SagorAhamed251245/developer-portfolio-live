@@ -5,9 +5,7 @@
     font-family: 'Open Sans', sans-serif;
 }
 
-body {
-    background-color: aqua;
-}
+
 
 .text-pri {
     color: orange;
@@ -157,20 +155,62 @@ main {
     margin-bottom: 30px;
 
 }
-.info{
+
+.info {
     display: flex;
     justify-content: space-between;
 }
 
-.info >div > h4 {
+.info>div>h4 {
     color: #757575;
     font-weight: 400;
-font-size: 20px;
+    font-size: 20px;
 
 }
 
-.info >div > p{
+.info>div>p {
     font-weight: 700;
-font-size: 20px;
-color: #474747;
+    font-size: 20px;
+    color: #474747;
+}
+
+/* what i do start */
+
+.what-i-do {
+    margin-top: 130px;
+    text-align: center;
+
+}
+
+.skills-container {
+    display: flex;
+    gap: 24px;
+    text-align: start;
+    
+}
+
+.skill {
+    width: 267px;
+
+    padding: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+
+.skill-title {
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+}
+
+.skill-descrption {
+    margin-top: 30px;
+    width: 201px;
+height: 196px;
+    margin-bottom: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+
 }
