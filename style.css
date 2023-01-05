@@ -18,22 +18,22 @@ body {
 
 header {
     background-color: #FFF8F3;
-    background-image: url(./images/header_bg.png), url(./images/developer.png); 
+    background-image: url(./images/header_bg.png), url(./images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right , left ;
-   
-    
-   
+    background-position: bottom right, left;
+
+
+
 }
 
 
-    
-
-   
 
 
-  
-  
+
+
+
+
+
 
 
 nav {
@@ -79,7 +79,7 @@ nav {
 
 }
 
-.btn-second{
+.btn-second {
     background-color: transparent;
     border: 2px solid orange;
     border-radius: 5px;
@@ -98,7 +98,7 @@ nav {
     margin: 10px 150px 0px 150px;
 }
 
-.left-banner{
+.left-banner {
     width: 50%;
 }
 
@@ -106,7 +106,7 @@ nav {
     font-weight: 600;
     font-size: 45px;
     margin-bottom: 20px;
-    
+
 
 }
 
@@ -124,12 +124,53 @@ nav {
 
 .right-banner {
     width: 50%;
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: flex-end;
 }
-    
-    
 
+/* main section */
+main {
+    max-width: 1140px;
+    margin: 0px auto;
 
+}
 
+.about {
+    margin-top: 130px;
+    background: #FFF8F3;
+    padding: 130px 150px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.text-title {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+
+}
+
+.text-description {
+    color: #757575;
+    font-size: 18px;
+    margin-bottom: 30px;
+
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info >div > h4 {
+    color: #757575;
+    font-weight: 400;
+font-size: 20px;
+
+}
+
+.info >div > p{
+    font-weight: 700;
+font-size: 20px;
+color: #474747;
+}
